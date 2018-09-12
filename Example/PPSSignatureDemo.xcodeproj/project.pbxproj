@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5BF98B93132C2C42DC3C5843 /* libPods-PPSSignatureDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 654E1E9260586DD6CB1EA9CC /* libPods-PPSSignatureDemo.a */; };
 		913A051918723FA5007E1418 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 913A051818723FA5007E1418 /* Foundation.framework */; };
 		913A051B18723FA5007E1418 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 913A051A18723FA5007E1418 /* CoreGraphics.framework */; };
 		913A051D18723FA5007E1418 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 913A051C18723FA5007E1418 /* UIKit.framework */; };
@@ -23,7 +24,6 @@
 		913A054A18724DAA007E1418 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 913A054818724DAA007E1418 /* MainStoryboard_iPad.storyboard */; };
 		913A054F18724DDE007E1418 /* SignatureViewQuartz.m in Sources */ = {isa = PBXBuildFile; fileRef = 913A054C18724DDE007E1418 /* SignatureViewQuartz.m */; };
 		913A055018724DDE007E1418 /* SignatureViewQuartzQuadratic.m in Sources */ = {isa = PBXBuildFile; fileRef = 913A054E18724DDE007E1418 /* SignatureViewQuartzQuadratic.m */; };
-		CEF11D56B94B489C8AC08605 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2023A096B642444BAD107BE9 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2023A096B642444BAD107BE9 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		274FA7B8900E47DDCDBED04D /* Pods-PPSSignatureDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PPSSignatureDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PPSSignatureDemo/Pods-PPSSignatureDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		654E1E9260586DD6CB1EA9CC /* libPods-PPSSignatureDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PPSSignatureDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DE486BD282FD3AFCACA936B /* Pods-PPSSignatureDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PPSSignatureDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-PPSSignatureDemo/Pods-PPSSignatureDemo.release.xcconfig"; sourceTree = "<group>"; };
 		913A051518723FA5007E1418 /* PPSSignatureDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PPSSignatureDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		913A051818723FA5007E1418 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		913A051A18723FA5007E1418 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -60,7 +62,6 @@
 		913A054C18724DDE007E1418 /* SignatureViewQuartz.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignatureViewQuartz.m; sourceTree = "<group>"; };
 		913A054D18724DDE007E1418 /* SignatureViewQuartzQuadratic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignatureViewQuartzQuadratic.h; sourceTree = "<group>"; };
 		913A054E18724DDE007E1418 /* SignatureViewQuartzQuadratic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignatureViewQuartzQuadratic.m; sourceTree = "<group>"; };
-		B03250E3E95B4BE680D7BA91 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +72,7 @@
 				913A051B18723FA5007E1418 /* CoreGraphics.framework in Frameworks */,
 				913A051D18723FA5007E1418 /* UIKit.framework in Frameworks */,
 				913A051918723FA5007E1418 /* Foundation.framework in Frameworks */,
-				CEF11D56B94B489C8AC08605 /* libPods.a in Frameworks */,
+				5BF98B93132C2C42DC3C5843 /* libPods-PPSSignatureDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,7 +96,7 @@
 				913A053718723FA5007E1418 /* PPSSignatureDemoTests */,
 				913A051718723FA5007E1418 /* Frameworks */,
 				913A051618723FA5007E1418 /* Products */,
-				B03250E3E95B4BE680D7BA91 /* Pods.xcconfig */,
+				91A1CD92F490F122F00C4939 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -115,7 +116,7 @@
 				913A051A18723FA5007E1418 /* CoreGraphics.framework */,
 				913A051C18723FA5007E1418 /* UIKit.framework */,
 				913A053118723FA5007E1418 /* XCTest.framework */,
-				2023A096B642444BAD107BE9 /* libPods.a */,
+				654E1E9260586DD6CB1EA9CC /* libPods-PPSSignatureDemo.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -174,6 +175,15 @@
 			name = "Alternative Views";
 			sourceTree = "<group>";
 		};
+		91A1CD92F490F122F00C4939 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				274FA7B8900E47DDCDBED04D /* Pods-PPSSignatureDemo.debug.xcconfig */,
+				7DE486BD282FD3AFCACA936B /* Pods-PPSSignatureDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -181,11 +191,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 913A054118723FA5007E1418 /* Build configuration list for PBXNativeTarget "PPSSignatureDemo" */;
 			buildPhases = (
-				51C5B5620D3B4693B8ED7D34 /* Check Pods Manifest.lock */,
+				9FEAFF6B3C8CC09E53038DB2 /* [CP] Check Pods Manifest.lock */,
 				913A051118723FA5007E1418 /* Sources */,
 				913A051218723FA5007E1418 /* Frameworks */,
 				913A051318723FA5007E1418 /* Resources */,
-				8CCE556E918545FDA19C23EE /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -270,34 +279,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		51C5B5620D3B4693B8ED7D34 /* Check Pods Manifest.lock */ = {
+		9FEAFF6B3C8CC09E53038DB2 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PPSSignatureDemo-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		8CCE556E918545FDA19C23EE /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -426,7 +423,7 @@
 		};
 		913A054218723FA5007E1418 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B03250E3E95B4BE680D7BA91 /* Pods.xcconfig */;
+			baseConfigurationReference = 274FA7B8900E47DDCDBED04D /* Pods-PPSSignatureDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -441,7 +438,7 @@
 		};
 		913A054318723FA5007E1418 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B03250E3E95B4BE680D7BA91 /* Pods.xcconfig */;
+			baseConfigurationReference = 7DE486BD282FD3AFCACA936B /* Pods-PPSSignatureDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;

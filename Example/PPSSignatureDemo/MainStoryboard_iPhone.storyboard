@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="weJ-ff-Jss">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES" initialViewController="weJ-ff-Jss">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <deployment defaultVersion="1792" identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller - Quadratic-->
+        <!--Quadratic-->
         <scene sceneID="0hB-Fw-EOI">
             <objects>
                 <viewController id="LA2-Ls-Cb6" sceneMemberID="viewController">
@@ -14,17 +18,17 @@
                         <viewControllerLayoutGuide type="bottom" id="q2L-lH-peg"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Qdv-rk-mJw" customClass="SignatureViewQuartzQuadratic">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Quadratic" id="eeW-xv-yYM"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SoJ-ne-Vts" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-104" y="319"/>
+            <point key="canvasLocation" x="-61" y="528"/>
         </scene>
-        <!--GLKit View Controller - Variable Width-->
+        <!--Variable Width-->
         <scene sceneID="M3B-r5-ERh">
             <objects>
                 <glkViewController autoresizesArchivedViewToFullSize="NO" preferredFramesPerSecond="60" id="2Zn-NB-M0x" sceneMemberID="viewController">
@@ -33,7 +37,7 @@
                         <viewControllerLayoutGuide type="bottom" id="sCU-MA-pjI"/>
                     </layoutGuides>
                     <glkView key="view" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="1zL-SX-8xv" customClass="PPSSignatureView">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <connections>
                             <outlet property="delegate" destination="2Zn-NB-M0x" id="1G8-PJ-qTF"/>
@@ -43,9 +47,9 @@
                 </glkViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="P6d-Su-xnU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-104" y="996"/>
+            <point key="canvasLocation" x="-770" y="1161"/>
         </scene>
-        <!--View Controller - Connect the Dots-->
+        <!--Connect the Dots-->
         <scene sceneID="hEF-bt-PUb">
             <objects>
                 <viewController id="Ac0-2V-RSk" sceneMemberID="viewController">
@@ -54,9 +58,9 @@
                         <viewControllerLayoutGuide type="bottom" id="C1i-Tz-aP6"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="QlX-D6-p77" customClass="SignatureViewQuartz">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Connect the Dots" id="UpI-Dz-ojs"/>
                 </viewController>
@@ -72,7 +76,7 @@
                     <tabBar key="tabBar" contentMode="scaleToFill" id="gqC-t6-IVy">
                         <rect key="frame" x="129" y="330" width="163" height="49"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBar>
                     <connections>
                         <segue destination="Ac0-2V-RSk" kind="relationship" relationship="viewControllers" id="HPI-fc-vFJ"/>
@@ -85,9 +89,4 @@
             <point key="canvasLocation" x="-638" y="-7"/>
         </scene>
     </scenes>
-    <simulatedMetricsContainer key="defaultSimulatedMetrics">
-        <simulatedStatusBarMetrics key="statusBar"/>
-        <simulatedOrientationMetrics key="orientation"/>
-        <simulatedScreenMetrics key="destination" type="retina4"/>
-    </simulatedMetricsContainer>
 </document>

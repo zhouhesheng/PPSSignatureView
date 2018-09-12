@@ -6,9 +6,11 @@ DEPENDENCIES:
 
 EXTERNAL SOURCES:
   PPSSignatureView:
-    :path: ../PPSSignatureView.podspec
+    :path: "../PPSSignatureView.podspec"
 
 SPEC CHECKSUMS:
   PPSSignatureView: 0f9ea27f72f45a9d6a7b9e7a9b7db1c1b91c547c
 
-COCOAPODS: 0.33.1
+PODFILE CHECKSUM: 2272d0581ee3b7832214a474eea7331b186da181
+
+COCOAPODS: 1.5.3
